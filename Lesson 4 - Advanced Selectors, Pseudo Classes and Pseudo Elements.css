@@ -1,0 +1,37 @@
+body{
+    background-color: darkcyan;
+}
+h1{
+    color: rgb(94, 80, 10);
+}
+a:hover{
+    font-size: larger;
+    color: chocolate;
+    background-color: moccasin;
+}
+
+ul>li{
+    font-weight: 900;
+}
+h2+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ul li:nth-child(4){
+    background-color: rgb(156, 232, 156);
+}
+h2:not(.a){
+    border:5px dashed blue;
+    border-radius: 30%;
+}
+a::before{
+    content: "🧲🧲🧲";
+  color: brown;
+}
+a::after{
+    content: "😁😁";
+    color: darkseagreen;
+}
+h1::first-letter{
+    font-size: 201%;
+    color: rgb(232, 17, 27);
+}
